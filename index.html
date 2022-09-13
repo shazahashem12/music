@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="gradient">
+    <main id="player">
+    <header id="head">
+        <img src="img/logo3.jpg" />
+        <h2>LIVE RADIO</h2>
+        <p id="title_radio">Radio1</p>
+
+    </header>
+    <div id="content">
+        <article id="buttons">
+            <img src="img/back.png" id="back"/>
+            <img src="img/play.png" id="play-pause"/>
+            <img src="img/next.png" id="next"/>
+            <audio  src ="" id="audio-file"></audio>
+        </article>
+        <article id="volume">
+            <h2>Sound</h2>
+            <input type="range" id="volume_range"/>
+            <h2>Speed</h2>
+            <input type="range" id="volume_speed" max="200" min="0" />
+        </article>
+        <article id="color">
+        <h1>color 1 : </h1>
+        <input type="color" id="color1" value="#00000"/>
+        <h1>color 2 : </h1>
+        <input type="color" id="color2" value="#f5f5dc"/>
+        
+        </article>
+        <button id="btn">Surprize me</button>
+        </div>
+</main>
+    <script src="script/music.js"></script>
+    <script src="script/volume.js"></script>
+    <script src="script/color.js"></script>
+</body>
+</html>
